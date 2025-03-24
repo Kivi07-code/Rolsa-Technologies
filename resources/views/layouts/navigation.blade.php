@@ -15,17 +15,16 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Home Page') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('bookspace')" :active="request()->routeIs('bookspace')">
-                        {{ __('Book Space') }}
+                    <x-nav-link :href="route('market')" :active="request()->routeIs('market')">
+                        {{ __('Market') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('order')" :active="request()->routeIs('order')">
-                        {{ __('Order') }}
+                    <x-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
+                        {{ __('Schedule') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('lessons')" :active="request()->routeIs('lessons')">
-                        {{ __('lessons') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('hampers')" :active="request()->routeIs('hampers')">
-                        {{ __('hampers') }}
+
+                    
+                    <x-nav-link :href="route('footprint')" :active="request()->routeIs('footprint')">
+                        {{ __('My Carbon Footprint') }}
                     </x-nav-link>
                     
                     <x-nav-link :href="route('locations')" :active="request()->routeIs('locations')">

@@ -11,24 +11,24 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/Bookspace', function () {
-    return view('bookspace');
-})->middleware(['auth', 'verified'])->name('bookspace');
+Route::get('/market', function () {
+    return view('market');
+})->middleware(['auth', 'verified'])->name('market');
 
-Route::get('/order', function () {
-    return view('order');
-})->middleware(['auth', 'verified'])->name('order');
+Route::get('/schedule', function () {
+    return view('schedule');
+})->middleware(['auth', 'verified'])->name('schedule');
 
 Route::get('/lessons', function () {
     return view('lessons');
 })->middleware(['auth', 'verified'])->name('lessons');
 
-Route::get('/hampers', function () {
-    return view('hampers');
-})->middleware(['auth', 'verified'])->name('hampers');
+Route::get('/footprint', function () {
+    return view('footprint');
+})->middleware(['auth', 'verified'])->name('footprint');
 
 
-Route::get('/locatio s', function () {
+Route::get('/locations', function () {
     return view('locations');
 })->middleware(['auth', 'verified'])->name('locations');
 

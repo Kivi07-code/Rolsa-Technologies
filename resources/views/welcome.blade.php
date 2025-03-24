@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Rolsa T</title>
+        <title>Rolsa Technologies</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -28,7 +28,36 @@
             <video autoplay muted loop id="background" class="absolute top-0" alt="background">
     <source src="https://videos.pexels.com/video-files/3755023/3755023-uhd_2560_1440_25fps.mp4" type="video/mp4">
 </video>
-       
+<div class="content">
+        <h1>Rolsa Technologies</h1>
+        <p>For a better future.</p>
+    </div>
+</div>
+<style>
+    /* Text content */
+.content {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Fine-tune the centering */
+    color: white; /* Text color */
+    text-align: center;
+    z-index: 1; /* Ensure the text is above the video */
+}
+
+h1 {
+    font-size: 3em; /* Adjust text size */
+    margin: 0;
+    font-family: Garamond, serif;
+    color: black;
+}
+
+p {
+    font-family: Garamond, serif;
+    font-size: 1.5em; /* Adjust text size */
+    color: white;
+}
+</style>
 
 
 
