@@ -3,8 +3,143 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
 
         <title>Rolsa Technologies</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Sticky Navbar Styles */
+        .navbar {
+            position: sticky;
+            top: 0; /* Stick to the top of the page */
+            background-color: transparent; /* Dark background for navbar */
+            color: white; /* Text color */
+            padding: 10px 0; /* Padding for spacing */
+            width: 100%; /* Full width of the page */
+            z-index: 1000; /* Ensure navbar stays on top of other elements */
+            text-align: center; /* Center the text */
+        }
+
+        .navbar a {
+            color: white; /* Link color */
+            text-decoration: none; /* Remove underline from links */
+            padding: 14px 20px; /* Space around the links */
+            display: inline-block; /* Align links horizontally */
+            font-size: 18px; /* Font size */
+        }
+
+        .navbar a:hover {
+            background-color: #ddd; /* Light grey background on hover */
+            color: black; /* Text color on hover */
+        }
+
+        /* Add some content to scroll and see the sticky effect */
+        .content {
+            padding: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <div class="navbar">
+        <a href="#home">Homepage</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Welcome to the Homepage</h2>
+        <p>Scroll down to see the sticky navbar in action!</p>
+
+        <div id="home" style="height: 1000px;">
+            <h3>Home Section</h3>
+            <p>This is the homepage section. Scroll down for more.</p>
+        </div>
+
+        <div id="about" style="height: 1000px;">
+            <h3>About Section</h3>
+            <p>This is the about section. Scroll down for more.</p>
+        </div>
+
+        <div id="contact" style="height: 1000px;">
+            <h3>Contact Us Section</h3>
+            <p>Find us on twitter, Linkedin and instagram to see more of what we do and offer!Contact us here or at the bottom of the page.</p>
+        
+            <!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Services</h5>
+
+      <p class="w3-text-grey">Rolsa Technologies specialises in solar pael installations and maintanance, electriv vehicle charging stations and smart home energy management systems.Services include installations of the specified green devices as ell as consultations surrounding them. These services can be booked when logged in.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Services</h1>
+      <h5 class="w3-padding-32">About Us</h5>
+
+      <p class="w3-text-grey">Rolsa technologies is a newly arising green tech company who promotes a better future through the help of raising awareness about our future society with a support of highly skilled workers who can ensure these devices re installed properly securely and are as environmentally beneficial as possible.Enabling a greener future helps our planet move twords sustainability and ensuring future generations can have the same resources and basic human needs just like we did.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="" target="_blank">Reach Studios</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+        </div>
+    </div>
+
+</body>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
