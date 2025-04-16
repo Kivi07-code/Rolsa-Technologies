@@ -115,7 +115,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
   </div>
-
+  <script src="//code.tidio.co/rh1jksohu0qmjoltu6ewmpzka8pm1moy.js" async></script>
 
 </body>
 
@@ -142,6 +142,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 </style>
 </head>
 </body>
+
+<!-- End page content -->
+</div>
+
+<script>
+  // Script to open and close sidebar
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+  }
+  </script>
+
+</body>
+</html>
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-dark-grey">
   <div class="w3-row-padding">
@@ -182,24 +201,5 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   </footer>
   
   <div class="w3-black w3-center w3-padding-24">Powered by <a href="" title="W3.CSS" target="_blank" class="w3-hover-opacity"> Reach Studios</a></div>
-
-<!-- End page content -->
-</div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
-</body>
-</html>
 
 </x-app-layout>

@@ -20,26 +20,26 @@
         /* Sticky Navbar Styles */
         .navbar {
             position: sticky;
-            top: 0; /* Stick to the top of the page */
-            background-color: transparent; /* Dark background for navbar */
-            color: white; /* Text color */
-            padding: 10px 0; /* Padding for spacing */
-            width: 100%; /* Full width of the page */
-            z-index: 1000; /* Ensure navbar stays on top of other elements */
-            text-align: center; /* Center the text */
+            top: 0; 
+            background-color: transparent;
+            color: white;
+            padding: 10px 0; 
+            width: 100%;
+            z-index: 1000; 
+            text-align: center; 
         }
 
         .navbar a {
-            color: white; /* Link color */
-            text-decoration: none; /* Remove underline from links */
-            padding: 14px 20px; /* Space around the links */
-            display: inline-block; /* Align links horizontally */
-            font-size: 18px; /* Font size */
+            color: white; 
+            text-decoration: none; 
+            padding: 14px 20px;
+            display: inline-block; 
+            font-size: 18px; 
         }
 
         .navbar a:hover {
-            background-color: #ddd; /* Light grey background on hover */
-            color: black; /* Text color on hover */
+            background-color: #ddd; 
+            color: black; 
         }
 
         /* Add some content to scroll and see the sticky effect */
@@ -172,16 +172,16 @@ function myFunction() {
     /* Text content */
 .content {
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Fine-tune the centering */
-    color: white; /* Text color */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
     text-align: center;
-    z-index: 1; /* Ensure the text is above the video */
+    z-index: 1;
 }
 
 h1 {
-    font-size: 3em; /* Adjust text size */
+    font-size: 3em; 
     margin: 0;
     font-family: Garamond, serif;
     color: black;
@@ -189,7 +189,7 @@ h1 {
 
 p {
     font-family: Garamond, serif;
-    font-size: 1.5em; /* Adjust text size */
+    font-size: 1.5em; 
     color: white;
 }
 </style>
@@ -259,4 +259,5 @@ p {
             </div>
         </div>
     </body>
+    
 </html>

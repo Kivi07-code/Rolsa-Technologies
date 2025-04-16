@@ -18,6 +18,53 @@
                   
                   
                   {{ __("You're logged in!") }}
+
+                  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Our campaing</h1>
+      <p>Rolsa technolgies since 2014 has been inspiring people all over the world to plant trees,recycle and reduce waste.WE have been helping people to improve their waste output, both the atmosphere and our oceans are suffering from our incopetence to clean up after ourselvesWe have raised awareness and started campaigns to reduce pollution.The one-tree project is an example of our campaigns where we aim to plant one tree per every person on the planet, managing the large amounts of pollution in the atmosphere</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Our aims</h1>
+      <p>We aim for a better and greener tomorow where our future generations can enjoy the love and prosperity we did, and be able to brathe without difficulty the same air we could, for generations our pollution output has been increasing over the years and its looking like a constant need for face masks, and countless extinc species.Cleaning our environment is crucial to protect these species, extraction of raw materials lead to the loss of their habbitats.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Our Services</h1>
+      <p>Our projects to improve the future don't stop there, renewable emergy sources give us a chance at protecting these habbitats, reducing coal extractions and fueling electric cars do not only prevent loss of habitats but also allow for a considerably lower emission of pollution, sign up now for an installation for your own EV charge station, and fuel your electric car for cheaper.
+        We also offer solar panel installations to power your house electrically through the suns energy!Say goodbye to the old fireplace and hello to the warm sun powered radiators.Act now, reduce pollution.
+        |If these dont ickle your fancy, tracking home energy usage is always a plus to help ing reduce cost of living, enabling live tracking of the pattern between cost and usage
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+</script>
+
                   <meta charset="UTF-8">
                   
                   
@@ -189,10 +236,10 @@
     <div class="w3-col m5">
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
       <h3>Address</h3>
-      <p>Swing by for a cup of coffee, or whatever.</p>
-      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
-      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
-      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+      <p>Swing by for a cup of coffee.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Oakham , UK</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +07 12345678</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  vz@RolsaTech.com</p>
     </div>
     <div class="w3-col m7">
       <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
@@ -209,7 +256,7 @@
         <input class="w3-input" type="text" name="Message" required>
       </div>  
       <input class="w3-check" type="checkbox" checked name="Like">
-      <label>I Like it!</label>
+      <label>I would like additional support</label>
       <button type="submit" class="w3-button w3-right w3-theme">Send</button>
       </form>
     </div>
@@ -270,7 +317,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 .bgimg {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/w3images/pizza.jpg");
+  background-image: url("");
   min-height: 90%;
 }
 </style>
@@ -320,7 +367,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   </div>
   </footer>
   
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="" title="W3.CSS" target="_blank" class="w3-hover-opacity"> Reach Studios</a></div>
+  <div class="w3-black w3-center w3-padding-24">Powered by <a title="W3.CSS" target="_blank" class="w3-hover-opacity"> Reach Studios</a></div>
 
 <!-- End page content -->
 </div>
@@ -337,11 +384,14 @@ function w3_close() {
     document.getElementById("myOverlay").style.display = "none";
 }
 </script>
+<script src="//code.tidio.co/rh1jksohu0qmjoltu6ewmpzka8pm1moy.js" async></script>
 
 </body>
 
 
 </footer>
+
+
 </html>
 
 
